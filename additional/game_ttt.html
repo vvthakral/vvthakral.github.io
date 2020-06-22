@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/game_ttt.css">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <p>
+        <span id="p1Disp" class="names"> P1 </span>
+        <span id="vs"> VS </span>
+        <span id="p2Disp" class="names"> P2 </span>
+    </p>
+    <p>
+        <span id="p1Score" class="names">0</span> - <span id="p2Score" class="names">0</span>
+    </p>
+    <div id="upper">
+        <button id="reRound">Reset Round</button>
+            <span id="_1">
+                Playing to: <span id="maxCount">5</span>
+                <input type="number" id="customCount" name="maxGames">
+            </span>    
+            <button id="reGame">Reset Game</button>
+    </div>
+    <div id="container">
+        <table id="board">
+            <tr>
+                <td class="r1 c1 d1"></td>
+                <td class="r1 c2 vertical"></td>
+                <td class="r1 c3 d2"></td>
+            </tr>
+            <tr>
+                <td class="r2 c1 horizontal"></td>
+                <td class="r2 c2 d1 d2 horizontal vertical"></td>
+                <td class="r2 c3 horizontal"></td>
+            </tr>
+            <tr>
+                <td class="r3 c1 d2"></td>
+                <td class="r3 c2 vertical"></td>
+                <td class="r3 c3 d1"></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="../javascript/game_ttt.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color: #232323;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    margin-top: 15%;
+    font-size: 3em;
+    color: orange;
+}
+div{
+    font-size: 2em;
+    margin-top: 15px;
+}
+#color a{
+    color: white;
+    text-decoration: none;
+}
+
+#color a:visited{
+    color: white;
+}
+
+#tic a{
+    color: green;
+    text-decoration: none;
+}
+    
+#tic a:visited{
+    color: green;
+}
+
